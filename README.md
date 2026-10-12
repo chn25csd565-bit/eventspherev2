@@ -26,6 +26,17 @@ In PowerShell from `C:\Users\Joys\EVENTSPHERE`:
 
 *(Note: EventSphere is a native Java Jakarta Servlet web application, so `npm` or Node.js commands are not used).*
 
+### ☁️ Cloud Deployment (Render)
+
+EventSphere is packaged with a production-ready `Dockerfile` and `render.yaml` Blueprint for Render:
+
+1. Go to [Render Dashboard](https://dashboard.render.com/) and click **New +** > **Web Service**.
+2. Connect your GitHub repository: `https://github.com/chn25csd565-bit/eventspherev2`.
+3. Select **Docker** as the Runtime (detected automatically).
+4. Render will build the container and deploy Tomcat 10 with the embedded database automatically!
+
+*(Note: EventSphere is a stateful Java Jakarta Servlet application on Apache Tomcat, so it is deployed on Render Docker services rather than serverless static hosts like Vercel).*
+
 ---
 
 ## 🔑 Pre-Seeded Instant Demo Credentials

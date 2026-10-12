@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: eventsphere
+    runtime: docker
+    plan: free
+    region: oregon
+    envVars:
+      - key: H2_DIR
+        value: /data/eventsphere_db
