@@ -28,9 +28,12 @@ In PowerShell from `C:\Users\Joys\EVENTSPHERE`:
 
 ### ☁️ Cloud Deployment (Render)
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/chn25csd565-bit/eventspherev2)
+
 EventSphere is packaged with a production-ready `Dockerfile` and `render.yaml` Blueprint for Render:
 
-1. Go to [Render Dashboard](https://dashboard.render.com/) and click **New +** > **Web Service**.
+- **1-Click Deploy URL:** [https://render.com/deploy?repo=https://github.com/chn25csd565-bit/eventspherev2](https://render.com/deploy?repo=https://github.com/chn25csd565-bit/eventspherev2)
+
 2. Connect your GitHub repository: `https://github.com/chn25csd565-bit/eventspherev2`.
 3. Select **Docker** as the Runtime (detected automatically).
 4. Render will build the container and deploy Tomcat 10 with the embedded database automatically!
